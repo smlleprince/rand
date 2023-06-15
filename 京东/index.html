@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>狗东</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div id="app">
+
+        <!-- 广告 -->
+        <div class="gg">
+            <img src="img/广告.png" alt="">
+        </div>
+
+
+
+        <!-- 版心右侧 -->
+        <div class="bxyc">
+            <a href="https://jdcs.jd.com/chat/index.action?venderId=1&entry=jd_web_jimi_jdhome"><img src="img/右版心.png" alt=""></a>
+        </div>
+        <!-- 顶部导航 -->
+        <nav class="nav-container">
+            <div class="w">
+                <p class="nav-postion">
+                    <img src="./img/location_fill.png" alt="">
+                    <span>河南</span>
+                </p>
+
+                <ul>
+                    <li>你好，请登录  <a href="https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fwww.jd.com%2F" class="mfzc">免费注册</a>  </li>
+                    <li><a href="https://passport.jd.com/uc/login?ReturnUrl=https%3A%2F%2Forder.jd.com%2Fcenter%2Flist.action">我的订单</a></li>
+                    <li>我的京东 <i class="nav-icon"></i> </li>
+                    <li class="qycg">企业采购 <i class="nav-icon"></i> </li>
+                    <li>商家服务 <i class="nav-icon"></i> </li>
+                    <li>网站导航 <i class="nav-icon"></i> </li>
+                    <li>手机京东</li>
+                    <li><a href="https://passport.jd.com/uc/login?ReturnUrl=https%3A%2F%2Forder.jd.com%2Fcenter%2Flist.action">网站无障碍</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <!-- header -->
+        <header>
+           <div class="w flex">
+                <div class="header-left">
+                    <img src="./img/logo.jpg" alt="">
+                </div>
+                <div class="header-center">
+
+                    <div class="relative">
+                        <div class="header-search flex">
+                            <input type="text" value="奥克斯空调">
+                            <img src="img/camera.png"  class="header-search-icon__camera" alt="">
+                            <button> <img src="img/search.png" class="header-search-icon__search" alt=""></button>
+                        </div>
+                        <button class="header-cart">
+                            <img src="img/cart.png" alt="">
+                            我的购物车
+                            <span class="cart-num">0</span>
+                        </button>
+                    </div>
+                    <!-- 搜索框下边小字 -->
+                    <div class="header-font">
+                        <a href="https://pro.jd.com/mall/active/4KhrHsSfjSaicryXgE1Zb8QWZJyj/index.html?babelChannel=ttt15">奇遇沉浸式</a>
+                        <a href="https://pro.jd.com/mall/active/34CCBfqvUNtNuo9qPDTUJgM8wFMF/index.html?babelChannel=ttt5">京造618</a>
+                        <a href="https://pro.jd.com/mall/active/3fNa4gg4udob1juiWbWWBp9z9PBs/index.html?babelChannel=ttt51">极光Pro</a>
+                        <a href="https://pro.jd.com/mall/active/3dkNouPtrywcTK4qL6S43NRdzFbj/index.html?babelChannel=ttt17">京东服饰</a>
+                        <a href="https://pro.jd.com/mall/active/34CCBfqvUNtNuo9qPDTUJgM8wFMF/index.html?babelChannel=ttt5">童装618</a>
+                        <a href="https://pro.jd.com/mall/active/3PGwLPkH3gPzaNydYXvxKyV7WjTf/index.html?babelChannel=ttt7">家装百科</a>
+                        <a href="https://pro.jd.com/mall/active/nKxVyPnuLwAsQSTfidZ9z4RKVZy/index.html?babelChannel=ttt16">港荣蛋糕</a>
+                    </div>
+                     <!-- 搜索框下边导航  -->
+
+                    <div class="header-nav">
+                        <a href="https://pro.jd.com/mall/active/36yPbWm4JqFrmTgABydz6GkWNkca/index.html">京东超市</a>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">京东家电</a>
+                        <a href="https://miaosha.jd.com/">秒杀</a>
+                        <a href="https://auction.jd.com/sifa.html">拍卖</a>
+                        <a href="https://fresh.jd.com/">京东生鲜</a>
+                        <a href="https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fplus.jd.com%2Findex%3Fflow_system%3Dappicon%26flow_entrance%3Dappicon11%26flow_channel%3Dpc">PLUS会员</a>
+                        <a href="https://prodev.jd.com/mall/active/31XPWPTonxJ9e5YoQ85HS7z8XNYQ/index.html?babelChannel=ttt40">电脑数码</a>
+                        <a href="https://pro.jd.com/mall/active/33we45X3xLK8jrGiEhezaa4EzY32/index.html">进口好货</a>
+                        <a href="https://pro.jd.com/mall/active/33we45X3xLK8jrGiEhezaa4EzY32/index.html">便宜包邮</a>
+                        <a href="https://mro.jd.com/">京东五金城</a>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <img src="img/20.png.webp" alt="">
+                </div>
+           </div>
+        </header>
+
+
+        <!-- article -->
+        <div class="article-dbj">
+        <article class="w">
+            <!-- 左侧导航 -->
+            <div class="article-left-nav">
+                <ul>
+                    <li><a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">家用电器</a></li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">手机</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">运营商</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">数码</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">电脑</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">办公</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">家居</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">家具</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">家装</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">厨具</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">男装</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">女装</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">童装</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">内衣</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">美妆</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">个护清洁</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">宠物</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">女鞋</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">箱包</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">钟表</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">珠宝</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">男鞋</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">运动</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">户外</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">房产</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">汽车</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">汽车用品</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">母婴</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">玩具乐器</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">食品</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">酒类</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">生鲜</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">特产</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">艺术</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">礼品鲜花</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">农牧园艺</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">医疗保健</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">计生情趣</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">图书</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">文娱</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">教育</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">电子书</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">机票</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">酒店</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">旅游</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">生活</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">支付</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">白条</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">保险</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">企业金融</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">安装</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">维修</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">清洗</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">二手</a>
+                    </li>
+                    <li>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">工业品</a><span>/</span>
+                        <a href="https://pro.jd.com/mall/active/2vx2zyXR2KhRouYS6LrSEdnLF1P5/index.html">元器件</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 左中轮播图 -->
+            <div class="article-left-lb">
+                <div class="big">
+                        <a href="https://pro.jd.com/mall/active/3ZYfZKGRAhbHzJySpRriJoGWo8v6/index.html?innerAnchor=10035789319416&focus=3"><img src="img/tp1.jpg" alt="" class="tp"></a>
+                        <div class="zt">
+                        <img src="img/左箭头 (1).png" alt="" class="z">
+                        </div>
+                        <div class="yt">
+                        <img src="img/右箭头 (1).png" alt="" class="y">
+                        </div>
+                        <ul>
+                            <li class="gl"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                   
+                </div>
+            </div>
+            <!-- 右中轮播图 -->
+            <div class="article-right-lb">
+                <div><a href="https://pro.jd.com/mall/active/DH7eTn5F9ZbMmmP5FmAec6g2Faw/index.html?babelChannel=ttt3"><img src="./img/右边1-1.webp" alt=""></a></div>
+                <div><a href="https://pro.jd.com/mall/active/DH7eTn5F9ZbMmmP5FmAec6g2Faw/index.html?babelChannel=ttt3"><img src="./img/右边1-2.webp" alt=""></a></div>
+                <div><a href="https://pro.jd.com/mall/active/DH7eTn5F9ZbMmmP5FmAec6g2Faw/index.html?babelChannel=ttt3"><img src="./img/右边1-3.webp" alt=""></a></div>
+            </div>
+            <!-- 右侧导航 -->
+            <div class="article-right-nav">
+                <!-- 上 -->
+                <div class="article-s">
+                    <img src="img/dog.png" alt="">
+                    <div class="HI">
+                    <a href="https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fwww.jd.com%2F" class="hi">Hi~欢迎逛京东</a>
+                    </div>
+                    <div class="DL">
+                    <a href="https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fwww.jd.com%2F">登录</a>
+                    <span>|</span>
+                    <a href="https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fwww.jd.com%2F">注册</a>
+                    <div class="xr">新人福利</div>
+                    <div class="PULS">PULS会员</div>
+                </div>
+                </div>
+                <!-- 中 -->
+                <div class="article-z">
+                    <div class="article-z-s">
+                        <b><span class="jdkb">京东快报</span></b>
+                        <span class="gd">更多 ></span>
+                    </div>
+                    <div>
+                        <ul class="article-z-u">
+                            <li>
+                                <span>热议</span>
+                                <a href="https://kuaibao.jd.com/?ids=403843888,397966161,397543301,400900729">绿联KU102矮轴机...</a>
+                            </li>
+                            <li>
+                                <span>推荐</span>
+                                <a href="https://kuaibao.jd.com/?ids=403843888,397966161,397543301,400900729">一级水效的洗碗机...</a>
+                            </li>
+                            <li>
+                                <span>热门</span>
+                                <a href="https://kuaibao.jd.com/?ids=403843888,397966161,397543301,400900729">小度青禾手机，专为...</a>
+                            </li>
+                            <li>
+                                <span>HOT</span>
+                                <a href="https://kuaibao.jd.com/?ids=403843888,397966161,397543301,400900729">“吞金兽”不爱吃鸡...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 下 -->
+                <div class="article-x">
+                    <div><a href="https://b.jd.com/"><img src="img/企业.png" alt=""><span>企业购</span></a></div>
+                    <div><a href="https://jr.jddinnovation.com/"><img src="img/文本，书页.png" alt=""><span>白条</span></a></div>
+                    <div><a href="https://pro.jd.com/mall/active/4ETADanPad9VEueNY8gWFQrdRjBg/index.html"><img src="img/_火车票.png" alt=""><span>火车票</span></a></div>
+                    <div><a href="https://hotel.jd.com/"><img src="img/_酒店.png" alt=""><span>酒店</span></a></div>
+                    <div><a href="https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fjiayouka.jd.com%2F"><img src="img/水滴.png" alt=""><span>加油卡</span></a></div>
+                    <div><a href="https://o.jd.com/"><img src="img/礼品卡.png" alt=""><span>礼品卡</span></a></div>
+                    <div><a href="https://search.jd.com/Search?keyword=%E6%B8%B8%E6%88%8F&enc=utf-8&wq=%E6%B8%B8%E6%88%8F&pvid=cc9c9a184ad2445297603e092d1280b1"><img src="img/游戏.png" alt=""><span>游戏</span></a></div>
+                    <div><a href="https://jipiao.jd.com/"><img src="img/飞机场.png" alt=""><span>机票</span></a></div>
+                    <div><a href="https://mro.jd.com/"><img src="img/五金.png" alt=""><span>五金城</span></a></div>
+                    <div><a href="https://movie.jd.com/index.html#/"><img src="img/电影票.png" alt=""><span>电影票</span></a></div>
+                    <div><a href="https://chongzhi.jd.com/"><img src="img/话费.png" alt=""><span>话费</span></a></div>
+                    <div><a href="https://www.jdcloud.com/cn/products/jdcloud-site-short"><img src="img/云_建站.png" alt=""><span>云建站</span></a></div>
+                </div>
+            </div>
+        </article>
+        </div>
+
+
+
+        <!-- section -->
+        <section>
+            <!-- 秒杀 -->
+            <div class="ms w flex">
+                <div class="ms-block">
+                    <h1>京东秒杀</h1>
+                    <p> <span>12</span> 点场距结束 </p>
+                    <div class="ms-clock">
+                        <div class="ms-h">2</div>
+                        <div class="ms-m">10</div>
+                        <div class="ms-s">60</div>
+                    </div>
+                </div>
+                <div class="ms-item">
+                    <a href="https://miaosha.jd.com/#10048921812715"><img src="img/ms-1.webp" alt="" class="b"></a>
+                    <p>炊小丫（CHUIXIAOYA）奶...</p>
+                    <b><span>￥28</span></b>
+                </div>
+                <div class="ms-item">
+                    <a href="https://miaosha.jd.com/#10048921812715"><img src="img/ms-2.webp" alt="" class="b"></a>
+                    <p>冷酸灵牙膏极地白按压式泵...</p>
+                    <b><span>￥17.9</span></b>
+                </div>
+                <div class="ms-item">
+                    <a href="https://miaosha.jd.com/#10048921812715"><img src="img/ms-3.webp" alt="" class="b"></a>
+                    <p>德质（Volksmilch）德国进...</p>
+                    <b><span>￥119</span></b>
+                </div>
+                <div class="ms-item">
+                    <a href="https://miaosha.jd.com/#10048921812715"><img src="img/ms-4.webp" alt="" class="b"></a>
+                    <p>超能洗衣液 大袋植萃低泡洗...</p>
+                    <b><span>￥17.9</span></b>
+                </div>
+                <div class="ms-item">
+                    <a href="https://miaosha.jd.com/#10048921812715"><img src="img/mx-便宜包邮.png" alt=""></a>
+                </div>
+            </div>
+
+
+            <!-- 限量好物在京东 -->
+            <div class="xl w">
+                <div class="xl-tp">
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl1.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>iphone立减1870</b> 
+                    </div>
+                    <b><span>购机补贴</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl2.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>低至6018元</b> 
+                    </div>
+                    <b><span>平价养宠</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl3.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>满299减80</b> 
+                    </div>
+                    <b><span>户外装备</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl4.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>抢特价金饰</b> 
+                    </div>
+                    <b><span>珠宝饰品</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl5.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>领话费卷</b> 
+                    </div>
+                    <b><span>充值宠粉</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl6.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>第二件0元</b> 
+                    </div>
+                    <b><span>中外名酒</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl7.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>买贵双倍赔</b> 
+                    </div>
+                    <b><span>全屋抄低价</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl8.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>粮油好物9.9</b> 
+                    </div>
+                    <b><span>粮油调味</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl9.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>低至7折</b> 
+                    </div>
+                    <b><span>清洁包装仓储</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl10.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>爆品909开抢</b> 
+                    </div>
+                    <b><span>万店狂省</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl11.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>现货抢购</b> 
+                    </div>
+                    <b><span>潮玩摄影</span></b>
+                </div>
+                <div class="xl-tp-1">
+                    <div class="xl-tp-s"><img src="img/xl12.webp" alt=""></div>
+                    <div class="xl-tp-x">
+                       <b>每满300减50</b> 
+                    </div>
+                    <b><span>服饰美妆爆品</span></b>
+                </div>
+            </div >
+
+        </section> 
+
+         <!-- section -->
+        <section>
+        <!-- 频道广场 -->
+         <div class="pdgc">
+            <h1 class="section-title">频道广场</h1>
+         </div>
+         <div class="section-title-1 w">
+                <div class="section-title-left">
+                    <div class="section-title-left-left">
+                        <img src="img/京东汽车.webp" alt="">
+                    </div>
+                    <div class="section-title-left-right">
+                        <img src="img/京东居家.webp" alt="">
+                    </div>
+                </div>
+                <div class="section-title-right">
+                    <div class="section-title-right-1">
+                        <h3>拍拍二手</h3>
+                        <span>大牌一元抢</span>
+                        <img src="img/拍拍二手-1.webp" alt="">
+                        <img src="img/拍拍二手-2.webp" alt="">
+                    </div>
+                    <div class="section-title-right-2">
+                        <h3>京东图书</h3>
+                        <span>大牌一元抢</span>
+                        <img src="img/京东图书-1.webp" alt="">
+                        <img src="img/京东图书-2.webp" alt="">
+                    </div>
+                    <div class="section-title-right-3">
+                        <h3>家用电器</h3>
+                        <span>大牌一元抢</span>
+                        <img src="img/家用电器-1.webp" alt="">
+                        <img src="img/家用电器-2.webp" alt="">
+                    </div>
+                    <div class="section-title-right-4">
+                        <h3>京东手机</h3>
+                        <span>大牌一元抢</span>
+                        <img src="img/京东手机-1.webp" alt="">
+                        <img src="img/京东手机-2.webp" alt="">
+                    </div>
+                </div>
+         </div>
+
+
+         <!-- 为你推荐 -->
+         <div class="pdgc">
+            <h1 class="section-title">为你推荐</h1>
+         </div>
+         <div class="wntj w">
+            <!-- 导航 -->
+            <div class="wntj-nav">
+                <ul>
+                    <li class="first">
+                        <h3 >精选</h3>
+                        <span>猜你喜欢</span>
+                    </li>
+                    <li>
+                        <h3>智能先锋</h3>
+                        <span>大电器城</span>
+                    </li>
+                    <li>
+                        <h3>居家优品</h3>
+                        <span>品质生活</span>
+                    </li>
+                    <li>
+                        <h3>超市百货</h3>
+                        <span>百货生鲜</span>
+                    </li>
+                    <li>
+                        <h3>时尚达人</h3>
+                        <span>美妆穿搭</span>
+                    </li>
+                    <li>
+                        <h3>进口好货</h3>
+                        <span>京东国际</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- 内容 -->
+            <div class="wntj-section">
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-1.webp" alt="">
+                    </div>
+                    <div>
+                        <p>奥克斯（AUX）颈椎按摩仪脖颈部按摩器肩部肩颈脖子...</p>
+                    </div>
+                    <div>
+                        <b><span>￥196.00</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-2.webp" alt="">
+                    </div>
+                    <div>
+                        <p>欧普灯 长条灯办公室平板灯日光灯店铺商用长方形吊灯明...</p>
+                    </div>
+                    <div>
+                        <b><span>￥58.00</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-3.webp" alt="">
+                    </div>
+                    <div>
+                        <p>华为手机适用无创血糖血脂尿酸监测仪智能手表手表血压...</p>
+                    </div>
+                    <div>
+                        <b><span>￥4389.00</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-4.webp" alt="">
+                    </div>
+                    <div>
+                        <p>欧普灯简约超薄个性创意墙灯过道庭院阳台走廊过道户外...</p>
+                    </div>
+                    <div>
+                        <b><span>￥98.00</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box five">
+                    <div>
+                        <img src="img/wntj-5.webp" alt="">
+                    </div>
+                    <div>
+                        <p>奥克斯（AUX）3D按摩椅家用太空舱多功能机械手智能按...</p>
+                    </div>
+                    <div>
+                        <b><span>￥6780.00</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-6.webp" alt="">
+                    </div>
+                    <div>
+                        <p>透明亚克力板定制有机玻璃定做diy手工材料亚格力塑料隔...</p>
+                    </div>
+                    <div>
+                        <b><span>￥10.00</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-7.webp" alt="">
+                    </div>
+                    <div>
+                        <p>机械师曙光16Air 16英寸2.5K AMD锐龙R7-7735H标压游...</p>
+                    </div>
+                    <div>
+                        <b><span>￥3699.00</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-8.webp" alt="">
+                    </div>
+                    <div>
+                        <p>雅漫琳 会议桌小型 简易黑色会议桌长桌长方形简约现代4...</p>
+                    </div>
+                    <div>
+                        <b><span>￥293.02</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box">
+                    <div>
+                        <img src="img/wntj-9.webp" alt="">
+                    </div>
+                    <div>
+                        <p>欧乐多英国进口玻璃凉水壶大容量冰箱冷水壶带龙头冷水...</p>
+                    </div>
+                    <div>
+                        <b><span>￥49.80</span></b>
+                    </div>
+                </div>
+                <div class="wntj-section-box ten">
+                    <div>
+                        <img src="img/wntj-10.webp" alt="">
+                    </div>
+                    <div>
+                        <p>鹿仙子电子温度计室内车载办公家用浴室婴儿房数显高精...</p>
+                    </div>
+                    <div>
+                        <b><span>￥11.00</span></b>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+         <!-- 尾部 -->
+
+         <div class="section-footer">
+            <div class="w section-footer-bottom">
+                    <div class="duo">
+                        <img src="img/duo.png" alt="">
+                        <b><p>品类齐全，轻松购物</p></b>
+                    </div>
+                    <div class="duo">
+                        <img src="img/kuai.png" alt="">
+                        <b><p>多仓直发，极速配送</p></b>
+                    </div>
+                    <div class="duo">
+                        <img src="img/hao.png" alt="">
+                        <b><p>正品行货，精致服务</p></b>
+                    </div>
+                    <div class="duo">
+                        <img src="img/sheng.png" alt="">
+                        <b><p>天天低价，畅选无忧</p></b>
+                    </div>
+                    
+            </div>
+         </div>
+         
+
+        </section>
+
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-top w">
+                <div class="one">
+                    <h5><b>购物指南</b></h5>
+                    <ul>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>购物流程</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>会员介绍</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>生活旅行</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>常见问题</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>大家电</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>联系客服</li></a>
+                    </ul>
+                </div>
+                <div class="one">
+                    <h5><b>配送方式</b></h5>
+                    <ul>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>上门自提</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>211限时达</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>配送服务查询</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>常配送费收取标准</li></a>
+                    </ul>
+                </div>
+                <div class="one">
+                    <h5><b>支付方式</b></h5>
+                    <ul>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>货到付款</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>在线支付</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>分期付款</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>公司转账</li></a>
+               
+                    </ul>
+                </div>
+                <div class="one">
+                    <h5><b>售后服务</b></h5>
+                    <ul>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>售后政策</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>价格保护</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>退款说明</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>返修/退换货</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>取消订单</li></a>
+                      
+                    </ul>
+                </div>
+                <div class="one">
+                    <h5><b>特色服务</b></h5>
+                    <ul>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>夺宝岛</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>DIY装机</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>延保服务</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>京东E卡</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>京东通信</li></a>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>京鱼座智能</li></a>
+                    </ul>
+                </div>
+                <div class="one end">
+                    <h5><b>京东自营覆盖区县</b></h5>
+                    <ul>
+                        <a href="https://miaosha.jd.com/#10048921812715"><li>京东已向全国2661个区县提供自营配送服务，支持货到付款、POS机刷卡和售后上门服务。</li></a>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-bottom w">
+                <div class="footer-bottom-x">
+                    <p class="one">关于我们 | 联系我们 | 联系客服 | 合作招商 | 商家帮助 | 营销中心 | 手机京东 | 友情链接 | 销售联盟 | 京东社区 | 风险监测 | 隐私政策 | 京东公益 | Media & IR</p>
+                    <p>京公网安备 11000002000088号 | 京ICP备11041704号 | ICP | 互联网药品信息服务资格证编号(京)-经营性-2014-0008 | 新出发京零 字第大120007号</p>
+                    <p>互联网出版许可证编号新出网证(京)字150号 | 出版物经营许可证 | 网络文化经营许可证京网文[2020]6112-1201号 | 违法和不良信息举报电话：4006561155</p>
+                    <p>Copyright © 2004 - 2023  京东JD.com 版权所有 | 消费者维权热线：4006067733 | 经营证照 | (京)网械平台备字(2018)第00003号 | 营业执照 | 增值电信业务经营许可证</p>
+                    <p> Сайт России |  เว็บไซต์ประเทศไทย</p>
+                    <p>京东旗下网站： 京东钱包 | 京东云 | 网络内容从业人员违法违规行为举报电话：4006561155-3</p>
+                    <img src="img/fooder.png" alt="">
+                </div>
+            </div>
+        </footer>
+            
+    </div>
+
+    <script src="./js/vue.js"></script>
+    <script>
+                   
+           
+           
+           // ---------------上边左中轮播图-------------------
+
+
+const arr = [
+    {url:'img/tp1.jpg'},
+    {url:'img/tp2.jpg'},
+    {url:'img/tp3.jpg'},
+    {url:'img/tp4.jpg'},
+    {url:'img/tp5.webp'},
+    {url:'img/tp6.jpg'},
+    {url:'img/tp7.webp'},
+    {url:'img/tp8.jpg'}
+]
+let img = document.querySelector('.big img')
+let img1= document.querySelector('.zt')
+let img2= document.querySelector('.yt')
+let big= document.querySelector('.big')
+let i=0
+console.log(arr.color)
+// 自动播放函数
+function genghuan(){
+    // 直接调用右侧按钮功能，操作简便
+    img2.click()
+}
+
+
+
+
+// 左侧按钮功能
+img1.addEventListener('click',function a(){
+     if(i<=0)
+    i=8
+    console.log('向左滑动')
+    i--
+    img.src = arr[i].url
+    document.querySelector('ul .gl').classList.remove('gl')
+    document.querySelector(`.big ul li:nth-child(${i+1})`).classList.add('gl')
+    console.log(i)
+   
+    // clearInterval(timer)
+})
+
+
+
+// 右侧按钮功能
+img2.addEventListener('click',function b(){
+    if(i>7)
+    i=0
+    console.log('向右滑动')
+    img.src = arr[i].url
+    document.querySelector('ul .gl').classList.remove('gl')
+    document.querySelector(`.big ul li:nth-child(${i+1})`).classList.add('gl')
+    console.log(i)
+    i++
+    // clearInterval(timer)
+})
+
+
+
+
+// 经过和离开大盒子，开关定时器功能
+let timer = setInterval(genghuan,3000)
+big.addEventListener('mouseenter',function(){
+    clearInterval(timer)
+    console.log('关闭了')
+})
+big.addEventListener('mouseleave',function(){
+    timer = setInterval(genghuan,3000)
+    console.log('开启了')
+})
+
+
+
+// ----------------广告------------
+let gg=document.querySelector('.gg img')
+gg.addEventListener('click',function(){
+    gg.style.display = 'none'
+})
+
+
+
+// 京东秒杀
+let ms1 = document.querySelector('.ms-h') 
+let ms2 = document.querySelector('.ms-m') 
+let ms3 = document.querySelector('.ms-s') 
+let a=2
+let b=10
+let c=60
+    function mx1(){
+            ms1.innerHTML = a
+            a--
+    }
+    function mx2(){
+            ms2.innerHTML = b
+            b--
+    }
+    function mx3(){
+            ms3.innerHTML = c
+            c--
+        // console.log('100')
+            if(c<0)
+            c=60
+    }
+     setInterval(mx1,3600000)
+     setInterval(mx2,60000)
+     setInterval(mx3,1000)
+    </script>
+</body>
+</html>

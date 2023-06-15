@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(244,244,244);
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.w{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.relative{position: relative;}
+a:hover{
+ color: #e2231a;
+}
